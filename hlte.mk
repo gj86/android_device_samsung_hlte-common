@@ -64,6 +64,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/idc/sec_e-pen.idc:system/usr/idc/sec_e-pen.idc
 
+# IR blaster
+PRODUCT_PACKAGES += \
+    consumerir.msm8974 \
+    consumerir.default \
+    android.hardware.ir@1.0-impl
+
 # Keylayouts
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/Button_Jack.kl:system/usr/keylayout/Button_Jack.kl \
