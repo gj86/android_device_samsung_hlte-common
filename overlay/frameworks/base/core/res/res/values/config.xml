@@ -198,7 +198,7 @@
     <!--<integer name="config_panelAutoBrightnessValue">1</integer> -->
 
     <!-- Device supports LED flashlight -->
-    <!-- <bool name="config_enableTorch">true</bool> -->
+    <bool name="config_enableTorch">true</bool>
 
     <!-- Boolean to enable stylus gestures -->
    <!-- <bool name="config_stylusGestures">true</bool> -->
