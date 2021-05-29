@@ -5,43 +5,137 @@
 
 <device name="Android">
     <item name="none">0</item>
-    <item name="screen.on">58</item>
+    <item name="ambient.on">100</item>
+    <item name="screen.on">120</item>
+    <item name="screen.full">280</item>
     <item name="bluetooth.active">98</item>
-    <item name="bluetooth.on">0.4</item>
-    <item name="screen.full">228</item>
-    <item name="wifi.on">0.5</item>
+    <item name="bluetooth.on">2</item>
+    <item name="wifi.on">3</item>
     <item name="wifi.active">187</item>
     <item name="wifi.scan">114</item>
-    <item name="dsp.audio">40</item>
-    <item name="dsp.video">251</item>
-    <item name="radio.active">155</item>
+    <item name="audio">50</item>
+    <item name="video">251</item>
+    <item name="camera.flashlight">254</item>
+    <item name="camera.avg">918</item>
+    <item name="gps.on">50.4</item>
+    <item name="radio.talk">96.12</item>
+    <item name="radio.active">191.16</item>
     <item name="radio.scanning">25</item>
-    <item name="gps.on">0.3</item>
+    <item name="gps.on">50</item>
     <array name="radio.on">
         <value>5.4</value>
         <value>5.4</value>
     </array>
+    <array name="gpu.speeds">
+        <value>27000</value>
+        <value>100000</value>
+        <value>200000</value>
+        <value>266000</value>
+        <value>320000</value>
+        <value>389000</value>
+        <value>450000</value>
+        <value>487500</value>
+        <value>533333</value>
+        <value>600000</value>
+    </array>
+    <array name="gpu.active">
+        <value>90.6</value> <!-- 27000 -->
+        <value>210.6</value> <!-- 100000 -->
+        <value>406.8</value> <!-- 200000 -->
+        <value>475.6</value> <!-- 266000 -->
+        <value>525.6</value> <!-- 320000 -->
+        <value>578.6</value> <!-- 389000 -->
+        <value>680.6</value> <!-- 450000 -->
+        <value>695.6</value> <!-- 487500 -->
+        <value>776.4</value> <!-- 533333 -->
+        <value>880.6</value> <!-- 600000 -->
+    </array>
+    <array name="cpu.active">
+      <value>10</value>
+    </array>
     <item name="cpu.clusters.cores">4</item>
     <array name="cpu.core_speeds.cluster0">
-        <value>2265600</value>
-        <value>1728000</value>
-        <value>1497600</value>
-        <value>1190400</value>
-        <value>960000</value>
-        <value>729600</value>
-        <value>422400</value>
-        <value>300000</value>
+        <value>268800000</value>
+        <value>300000000</value>
+        <value>345600000</value>
+        <value>422400000</value>
+        <value>499200000</value>
+        <value>576000000</value>
+        <value>652800000</value>
+        <value>729600000</value>
+        <value>806400000</value>
+        <value>883200000</value>
+        <value>960000000</value>
+        <value>1036800000</value>
+        <value>1113600000</value>
+        <value>1190400000</value>
+        <value>1267200000</value>
+        <value>1344000000</value>
+        <value>1420800000</value>
+        <value>1497600000</value>
+        <value>1574400000</value>
+        <value>1651200000</value>
+        <value>1728000000</value>
+        <value>1804800000</value>
+        <value>1881600000</value>
+        <value>1958400000</value>
+        <value>2035200000</value>
+        <value>2112000000</value>
+        <value>2188800000</value>
+        <value>2265600000</value>
+        <value>2342400000</value>
+        <value>2419200000</value>
+        <value>2496000000</value>
+        <value>2572800000</value>
+        <value>2649600000</value>
+        <value>2726400000</value>
+        <value>2803200000</value>
     </array>
-    <item name="cpu.suspend">4</item>
+    <item name="cpu.suspend">5.52</item>
+    <item name="cpu.idle">9.02</item>
     <array name="cpu.core_power.cluster0">
-        <value>399</value>
-        <value>308</value>
-        <value>264</value>
-        <value>190</value>
-        <value>174</value>
-        <value>102</value>
-        <value>72</value>
-        <value>46</value>
+        <value>40.92</value> <!-- 268800000 -->
+        <value>46.92</value> <!-- 300000000 -->
+        <value>59.42</value> <!-- 345600000 -->
+        <value>72.32</value> <!-- 422400000 -->
+        <value>77.35</value> <!-- 499200000 -->
+        <value>89.7</value> <!-- 576000000 -->
+        <value>95.2</value> <!-- 652800000 -->
+        <value>102.8</value> <!-- 729600000 -->
+        <value>125.8</value> <!-- 806400000 -->
+        <value>157.66</value> <!-- 883200000 -->
+        <value>174.33</value> <!-- 960000000 -->
+        <value>182.12</value> <!-- 1036800000 -->
+        <value>187.17</value> <!-- 1113600000 -->
+        <value>190.49</value> <!-- 1190400000 -->
+        <value>232.48</value> <!-- 1267200000 -->
+        <value>243.48</value> <!-- 1344000000 -->
+        <value>257.3</value> <!-- 1420800000 -->
+        <value>264.25</value> <!-- 1497600000 -->
+        <value>279.29</value> <!-- 1574400000 -->
+        <value>298.27</value> <!-- 1651200000 -->
+        <value>308.75</value> <!-- 1728000000 -->
+        <value>328.75</value> <!-- 1804800000 -->
+        <value>347.35</value> <!-- 1881600000 -->
+        <value>361.27</value> <!-- 1958400000 -->
+        <value>475.35</value> <!-- 2035200000 -->
+        <value>490.47</value> <!-- 2112000000 -->
+        <value>510.38</value> <!-- 2188800000 -->
+        <value>534.39</value> <!-- 2265600000 -->
+        <value>590.48</value> <!-- 2342400000 -->
+        <value>664.27</value> <!-- 2419200000 -->
+        <value>680.36</value> <!-- 2496000000 -->
+        <value>715.49</value> <!-- 2572800000 -->
+        <value>760.37</value> <!-- 2649600000 -->
+        <value>810.25</value> <!-- 2726400000 -->
+        <value>950.89</value> <!-- 2803200000 -->
+    </array>
+    <array name="wifi.batchedscan">
+        <value>0.0002</value>
+        <value>0.002</value>
+        <value>0.02</value>
+        <value>0.2</value>
+        <value>2</value>
     </array>
     <item name="battery.capacity">3200</item>
 </device>
