@@ -9,3 +9,6 @@
 
 # Sensor Library
 /(vendor|system/vendor)/lib/libsensirion_h_2.so         u:object_r:vendor_sensor_lib_file:s0
+
+# Fastcharge
+/(vendor|system/vendor)/bin/hw/vendor\.lineage\.fastcharge@1\.0-service\.samsung          u:object_r:hal_lineage_fastcharge_default_exec:s0
