@@ -188,6 +188,9 @@
         <item>ehrpd:4094,87380,1048576,4096,16384,262144</item>
     </string-array>
 
+
+    <bool name="config_enableWifiDisplay">true</bool>
+
     <!-- Panel auto-brightness configuration value -->
 <!--    <integer name="config_panelAutoBrightnessValue">1</integer> -->
 
